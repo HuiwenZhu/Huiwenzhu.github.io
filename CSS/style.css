@@ -1,0 +1,39 @@
+body {
+  background: rgb(58, 58, 58);
+  color: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: gray;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.Slides {
+  background: white;
+  color: gray;
+  padding: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Slides  figure {
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.Slides figure img {
+  border: 1px solid white;
+  border-radius: 10%;
+  box-shadow: gray 0 0 10px;
+  width:200px;
+  height:200px
+}
